@@ -59,11 +59,12 @@ npm start
 
 This will start the application on http://localhost:3000, and you can view it in your browser.
 
-## 4. For frontend to backend Connection
+## 4. Install Axios for Frontend to Backend Connection
 
-Install axoios
+To install Axios for connecting the frontend to the backend, run:
 
 ```bash
+
 npm i axios
 ```
 
