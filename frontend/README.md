@@ -46,6 +46,7 @@ To install the necessary dependencies for your project, run the following comman
 ```bash
 
 npm install
+npm install web-vitals
 ```
 
 Start the Development Server
