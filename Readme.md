@@ -103,8 +103,9 @@ SELECT * FROM tbl_workers;
 
 Query for table schema
 
-``` sql 
-`id` bigint(20) NOT NULL AUTO_INCREMENT,
+```sql
+CREATE TABLE `students` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
   `course` varchar(255) DEFAULT NULL,
@@ -113,5 +114,5 @@ Query for table schema
   `branch` varchar(255) DEFAULT NULL,
   `mobile_number` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=80 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci |
+) ENGINE=InnoDB AUTO_INCREMENT=80 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 ```
